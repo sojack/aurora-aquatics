@@ -11,12 +11,13 @@ import mainLogo from "../images/logo-auroraAquatics.svg"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <p className="motto">
-      Power <span>of the</span> Pool
-    </p>
     <div>
-      <img src={mainLogo} alt="Aurora Aquatics logo" />
+      <img className="logoSize" src={mainLogo} alt="Aurora Aquatics logo" />
     </div>
+    <p className="motto">
+      SWIMMING
+      <br /> <span>for</span> EVERYONE
+    </p>
     <div className="main">…coming soon</div>
   </Layout>
 )
