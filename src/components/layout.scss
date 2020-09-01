@@ -1,30 +1,77 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: futura, sans-serif;
-  font-family: Futura, Arial, sans-serif;
+  // margin: 0;
+  // padding: 0;
+  font-family: Arial, sans-serif;
 }
 .motto {
+  font-family: Futura, Arial, sans-serif;
   text-align: center;
   color: #aaa;
   font-size: 2em;
   // text-transform: uppercase;
   margin: 3em auto 1em;
+  line-height: 1.2em;
   span {
     font-size: 1em;
   }
 }
 .main {
   text-align: center;
-  color: #aaa;
-  margin: 5em 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Futura, Arial, sans-serif;
+  line-height: 1.8rem;
 }
 
+h1 {
+  margin-top: 2rem;
+  color: #838;
+}
+dt {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+header {
+  .motto {
+    text-align: center;
+    color: #aaa;
+    font-size: 2em;
+    line-height: 1em;
+    // text-transform: uppercase;
+    margin: 0 auto 4em;
+    span {
+      font-size: 1em;
+    }
+  }
+}
+main {
+  margin: 0 auto;
+  max-width: 58ch;
+  color: #888;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+ol li {
+  margin-bottom: 0.5rem;
+}
+.logo {
+  max-width: 65ch;
+  display: block;
+  margin: 2em auto 4em;
+}
 .logoSize {
   max-width: 65ch;
   display: block;
   margin: 0 auto;
+}
+
+section {
+  margin-bottom: 6em;
 }
 
 footer {
