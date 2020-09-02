@@ -397,6 +397,22 @@ const IndexPage = ({ data }) => (
           </dd>
         </dl>
       </section>
+      <section>
+        <h1>Letters of Support</h1>
+        <ul>
+          <li>
+            <a href="/supportLetter-artisticswimming.pdf">
+              Ontario Artistic Swimming
+            </a>
+          </li>
+          <li>
+            <a href="/supportLetter-waterpolocanada.pdf">Water Polo Canada</a>
+          </li>
+          <li>
+            <a href="/supportLetter-mavericks.pdf">Mavericks Water Polo</a>
+          </li>
+        </ul>
+      </section>
     </main>
   </Layout>
 )
