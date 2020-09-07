@@ -72,6 +72,10 @@ const IndexPage = ({ data }) => (
           <li>Scuba and rec programs such as paddle boarding, kayaking, etc</li>
           <li>Youth Programs</li>
           <li>Senior Specific Programs</li>
+          <li>
+            Other sport clubs such as hockey which are interested in aquatics
+            and cross training
+          </li>
         </ul>
         <p>
           Those interested please sign up through our Slack tread (download the
@@ -167,10 +171,9 @@ const IndexPage = ({ data }) => (
             advocacy group.
           </li>
           <li>
-            As Aurora grows and becomes more diverse learn to swim programming
-            and aquatic recreation and fitness will become an important
-            component to attracting new families and building a world class
-            community.
+            As Aurora grows and becomes more diverse, learn-to-swim programs and
+            aquatic recreation and fitness will become an important component to
+            attracting new families and building a world class community.
           </li>
           <li>
             The underlying driver for any decision needs to be based on a strong
@@ -204,23 +207,26 @@ const IndexPage = ({ data }) => (
             projected future demand. The SARC opened in 2009 when the population
             in aurora was 48,0000 and from almost day one the facility was at
             capacity and now in 2020 at a population of 58,000 the Facility
-            cannot handle the demands in the learn to Swim, adaptive P.E. and
+            cannot handle the demands in the learn to swim, adaptive P.E. and
             special needs areas never mind the competitive sport clubs. This
             coupled with the fact SARC as configured currently needs to be
             reengineered to make it more functional allowing for new program
             creation which in turn will drive revenue and cost recovery. Last
-            important consideration is that by 2030 to town will reach a
-            population of 70,000 and long term the population of Aurora will top
+            important consideration is that by 2030 the town will reach a
+            population of 74,900 and long term the population of Aurora will top
             out at 90,000. Any way you look at it there is demand for a new pool
             but the model also includes updates that can make the existing
-            aquatic facilities more useful and beneficial to residents
+            aquatic facilities more useful and beneficial to residents. This
+            will be the town's last aquatic facility and was outlined as a
+            requirement by the master recreation plan so it is important that it
+            meets our long term needs.
           </dd>
-          <dt>If so where is it logically built?</dt>
+          <dt>If so where is it logical to build?</dt>
           <dd>
             The big idea is that we need fewer facilities and that the
             facilities we have should have different tanks with differing water
-            temperatures to properly service, child/youth programs, sport
-            programs, seniors and special needs programs. So, for this reason
+            temperatures to properly service child/youth programs, sport
+            programs, seniors, and special needs programs. So, for this reason
             building on to SARC makes the most sense. Couple this to the fact
             that tremendous cost efficiencies accrue to building on to an
             existing facility versus building new from new and considering that
@@ -260,11 +266,11 @@ const IndexPage = ({ data }) => (
             temperatures so important?
           </dt>
           <dd>
-            User group needs vary widely. The needs of a user groups vary as can
-            be demonstrated by looking at the following groups. (parent and tot
-            learn to swimmer, aquafit participant, special needs/adaptive P.E
-            user and those of lane swimmers and competitive aquatic users. So, a
-            facility with multiply tanks of varying temperatures is ideal.
+            User group needs vary widely. The needs of user groups vary as can
+            be demonstrated by looking at the following groups. (parent and tot,
+            learn to swim, aquafit participants, special needs/adaptive P.E
+            users and those of lane swimmers and competitive aquatic users. So,
+            a facility with multiple tanks of varying temperatures is ideal.
             That’s why twining SARC makes so much sense. In a reengineered SARC
             the current tank could be converted into a warm water centre. The
             current lap pool temperature would be raised to 85 to 87 degrees. A
@@ -293,19 +299,18 @@ const IndexPage = ({ data }) => (
             order to maximize revenue potential new fitness-based programs need
             to be continually created and then implemented. Many municipalities
             negate the opportunity for incremental revenue programs by building
-            to small and not allowing incremental growth of the community or the
-            flexibility to adapt the space for other programming expansion. The
-            study talks about programing trends such as paddle board yoga, aqua
-            cycle, aqua treadmills, resistive in water training, water running,
-            underwater hockey, obstacle course and climbing walls to name a few.
-            The study also identifies expanded opportunity for family aquatic
-            recreation and use. The study also encourages Aurora to expand its
-            programming offering and the staff requirements to build such a
-            Program. Using a strategy linked to optimal temperature
-            requirement’s by program area. The study demonstrates that the
-            larger facilities actually generate more cost recovery but are
-            dependent on incremental programming and a larger pool of
-            third-party renters.
+            too small and not allowing incremental growth of the community or
+            the flexibility to adapt the space for other programming expansion.
+            The study talks about programming trends such as paddle board yoga,
+            aqua cycle, aqua treadmills, resistive in water training, water
+            running, underwater hockey, obstacle course and climbing walls to
+            name a few. The study also identifies expanded opportunities for
+            family aquatic recreation and use. The study also encourages Aurora
+            to expand its programming offering and the staff requirements to
+            build such a Program. Using a strategy linked to optimal temperature
+            requirements by program area. The study demonstrates that the larger
+            facilities actually generate more cost recovery but are dependent on
+            incremental programming and a larger pool of third-party renters.
           </dd>
           <dt>
             Does the revenue model really work and if so where are the
@@ -322,12 +327,13 @@ const IndexPage = ({ data }) => (
             build new programs is critical. The town must also be prepared to
             rent to third parties who reside outside of Aurora. The study
             demonstrates that the larger options (sport training/Event facility)
-            actually generate more cost recovery that the current format 48%
+            actually generate more cost recovery than the current format 48%
             recovery versus 63% recovery.
           </dd>
           <dt>
             So why as a town of Aurora resident would I support a facility that
-            in part will attack third party renters from northern York Region?
+            in part will attack third party renters from the northern York
+            Region?
           </dt>
           <dd>
             Simply put a larger facility will give the town access to a larger
@@ -338,7 +344,7 @@ const IndexPage = ({ data }) => (
             event facility as proposed has the potential to generate 18
             regional, provincial and national events in the process generating
             6,200 room nights per year. A direct economic impact of $5.3M and
-            $8M in annual economic impact. The added revenue from regional user
+            $8M in annual economic impact. The added revenue from regional users
             actually helps keep the user fees and membership fees for Aurora
             residents lower while maintaining priority use for residents.
           </dd>
@@ -347,7 +353,7 @@ const IndexPage = ({ data }) => (
             the capital costs?
           </dt>
           <dd>
-            Yes, the government of Canada working with its provincial
+            Yes, the government of Canada is working with its provincial
             counterparts on several grant programs for shovel ready programs.
             The Interprovincial Canada Infrastructure Program (ICIP) grants is
             the most relevant and focuses on yearly intakes with a ceiling of
@@ -357,31 +363,32 @@ const IndexPage = ({ data }) => (
             government and the balances from municipal, private and locally
             secured financing. The SARC expansion focused in part on creating a
             regional sport centre has a very good potential to be successful
-            with the support our York Region and the Aquatic NSO/PSO sport
+            with the support of the York Region and the Aquatic NSO/PSO sport
             organizations. The goal at a minimum should be to get the
             incremental cost of the expanded facility or $16M covered by this
-            grant program. A final critical consideration as part of the grant
-            application process is that the larger event facility has over 2,000
-            square feet of meeting, lobby and utility rooms that will benefit
-            all the user groups of SARC including Hockey, skating, child watch
-            and hopefully gym programming. This will make SARC more functional
-            for the whole community and a broad cross section off users. Again,
-            building on the regional sport centre hub for North York Region
-            (Stouffville, East Gwillimbury, Newmarket, Richmond Hill, King,
-            Vaughan) will only strengthen our ICIP funding grant application.
+            grant program. <br />A final critical consideration as part of the
+            grant application process is that the larger event facility has over
+            2,000 square feet of meeting, lobby and utility rooms that will
+            benefit all the user groups of SARC including Hockey, skating, child
+            watch and hopefully gym programming. This will make SARC more
+            functional for the whole community and a broad cross section off
+            users. Again, building on the regional sport centre hub for North
+            York Region (Stouffville, East Gwillimbury, Newmarket, Richmond
+            Hill, King, Vaughan) will only strengthen our ICIP funding grant
+            application.
           </dd>
           <dt>
             Why does it make sense to invest in sport &amp; recreation
             facilities during Covid-19?
           </dt>
           <dd>
-            Governments have over $3 Billion in unspent infrastructure funding.
-            Those communities that have well developed plans that are considered
-            shovel ready will be successful winning these grants. Shovel ready
-            requires fully developed architectural plans, approved provincial
-            and municipal zoning permits and matching municipal funding in
-            place. The very best projects require 6 to 8 months from approval to
-            start of the program.
+            Because Government have over $3 Billion in unspent infrastructure
+            funding. Those communities that have well developed plans that are
+            considered shovel ready will be successful winning these grants.
+            Shovel ready requires fully developed architectural plans, approved
+            provincial and municipal zoning permits and matching municipal
+            funding in place. The very best projects require 6 to 8 months from
+            approval to start of the program.
           </dd>
           <dt>What’s the potential timing off any decision?</dt>
           <dd>
