@@ -5,19 +5,13 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Carousel from "../components/carousel"
 import SEO from "../components/seo"
-import logo from "../images/logo-auroraAquatics.svg"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <header>
-      <img className="logo" src={logo} alt="Aurora Aquatics logo" />
-      <p className="motto">
-        SWIMMING
-        <br /> <span>for</span> EVERYONE
-      </p>
-    </header>
+    <Carousel />
     <main>
       <section>
         <h1>Mission</h1>
@@ -43,7 +37,9 @@ const IndexPage = ({ data }) => (
         </ul>
       </section>
 
-      <section>
+      <section className="section01">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner01 banner "></div>
         <h1>Membership</h1>
         <p>
           Membership is open to anyone that wants to support the expansion of
@@ -77,12 +73,43 @@ const IndexPage = ({ data }) => (
             and cross training
           </li>
         </ul>
-        <p>
-          Those interested please sign up through our Slack tread (download the
-          following link) and join our Facebook event page
-        </p>
+        <div className="formSection">
+          <p>
+            Those interested in joining us please fill the form below and we
+            will get in touch with you.
+          </p>
+          <form
+            name="membership"
+            method="post"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <div>
+              <label htmlFor="name">Name: </label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div>
+              <label htmlFor="organization">Organization: </label>
+              <input
+                type="text"
+                name="organization"
+                id="organization"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email">email: </label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div>
+              <input type="submit" value="Join us!" className="submit" />
+            </div>
+          </form>
+        </div>
       </section>
-      <section>
+      <section className="section02">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner02 banner"></div>
         <h1>Upcoming Events</h1>
         <p>Monthly Zoom Media Aurora Swimming for Everyone web conference</p>
         <ul>
@@ -104,7 +131,9 @@ const IndexPage = ({ data }) => (
           <li>December TBD</li>
         </ul>
       </section>
-      <section>
+      <section className="section03">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner03 banner"></div>
         <h1>The Current Opportunity</h1>
         <h2>A word about the ISG Feasibility Study</h2>
         <p>
@@ -158,7 +187,9 @@ const IndexPage = ({ data }) => (
           </dd>
         </dl>
       </section>
-      <section>
+      <section className="section04">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner04 banner"></div>
         <h1>Key Messages</h1>
         <ol>
           <li>
@@ -197,7 +228,9 @@ const IndexPage = ({ data }) => (
           </li>
         </ol>
       </section>
-      <section>
+      <section className="section05">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner05 banner"></div>
         <h1>Q&amp;A</h1>
         <dl>
           <dt>Does the Town of Aurora Really need a new Pool?</dt>
