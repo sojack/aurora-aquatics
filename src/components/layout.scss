@@ -5,10 +5,10 @@
   --purple: rgb(102, 45, 145);
   --red: rgb(218, 28, 92);
   --lightyellow: rgba(251, 176, 64, 0.1);
-  --lightgreen: rgba(0, 148, 68, 0.1);
+  --lightgreen: rgba(0, 148, 68, 0.05);
   --lightcyan: rgba(39, 170, 225, 0.1);
-  --lightpurple: rgba(102, 45, 145, 0.1);
-  --lightred: rgba(218, 28, 92, 0.1);
+  --lightpurple: rgba(102, 45, 145, 0.05);
+  --lightred: rgba(218, 28, 92, 0.05);
 }
 body {
   margin: 0;
@@ -157,8 +157,8 @@ footer {
 // }
 .formSection {
   color: #555;
-  background-color: var(--lightgreen);
-  border: 2px solid var(--green);
+  background-color: var(--lightpurple);
+  border: 2px solid var(--purple);
   padding: 1em 1em 0.5em;
   border-radius: 1em;
   p,
@@ -304,16 +304,19 @@ footer {
   background-color: var(--lightyellow);
 }
 .section02 {
-  background-color: var(--lightgreen);
+  background-color: var(--lightpurple);
 }
 .section03 {
   background-color: var(--lightcyan);
 }
 .section04 {
-  background-color: var(--lightpurple);
+  background-color: var(--lightgreen);
 }
 .section05 {
   background-color: var(--lightred);
+}
+.section06 {
+  background-color: var(--lightyellow);
 }
 
 section > h1,
@@ -325,6 +328,43 @@ section > ul {
   max-width: 58ch;
   margin-left: auto;
   margin-right: auto;
+}
+
+a,
+dt {
+  color: var(--cyan);
+}
+a:hover {
+  color: var(--purple);
+}
+
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "•";
+  color: var(--cyan);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+ol li::before {
+  content: counter(li) ".";
+  color: var(--cyan);
+  display: inline-block;
+  font-weight: bold;
+  width: 1.2em;
+  margin-left: -1.2em;
+}
+ol li {
+  counter-increment: li;
 }
 
 @media (max-width: 600px) {
