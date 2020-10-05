@@ -443,6 +443,17 @@ const IndexPage = ({ data }) => (
         <h1>Letters of Support</h1>
         <ul>
           <li>
+            <a href="/supportLetter-SwimCanada.pdf">Swim Canada</a>
+          </li>
+          <li>
+            <a href="/supportLetter-SwimOntario.pdf">Swim Ontario</a>
+          </li>
+          <li>
+            <a href="/supportLetter-artisticSwimmingCanada.pdf">
+              Canada Artistic Swimming
+            </a>
+          </li>
+          <li>
             <a href="/supportLetter-artisticswimming.pdf">
               Ontario Artistic Swimming
             </a>
