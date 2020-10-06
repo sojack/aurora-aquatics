@@ -423,7 +423,7 @@ const IndexPage = ({ data }) => (
             funding in place. The very best projects require 6 to 8 months from
             approval to start of the program.
           </dd>
-          <dt>What’s the potential timing off any decision?</dt>
+          <dt>What’s the potential timing of any decision?</dt>
           <dd>
             Hard to say given Covid-19 but we understand that the current
             council would like to make a recommendation in Q1 of 2021 ideally in
