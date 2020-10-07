@@ -437,10 +437,10 @@ const IndexPage = ({ data }) => (
           </dd>
         </dl>
       </section>
-      <section className="section06">
+      <section className="section06" id="support">
         <div className="colorPattern patternTop"></div>
         <div className="banner01 banner "></div>
-        <h1>Letters of Support</h1>
+        <h1>Support Letters</h1>
         <ul>
           <li>
             <a href="/supportLetter-SwimCanada.pdf">Swim Canada</a>

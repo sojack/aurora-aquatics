@@ -84,28 +84,25 @@ const Navbar = () => {
       </div>
       <ul className="navList" id="navList">
         <li id="nav">
-          {" "}
           <a href="/#top">Home</a>{" "}
         </li>
         <li>
-          {" "}
           <a href="#membership">Membership</a>{" "}
         </li>
         <li>
-          {" "}
           <a href="#events">Events</a>{" "}
         </li>
         <li>
-          {" "}
           <a href="#opportunity">Opportunities</a>{" "}
         </li>
         <li>
-          {" "}
           <a href="#keymessage">Key Messages</a>{" "}
         </li>
         <li>
-          {" "}
           <a href="#qa">Q&amp;A</a>{" "}
+        </li>
+        <li>
+          <a href="#support">Support Letters</a>{" "}
         </li>
       </ul>
     </StyledNavbar>
