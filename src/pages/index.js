@@ -37,7 +37,7 @@ const IndexPage = ({ data }) => (
         </ul>
       </section>
 
-      <section className="section01">
+      <section className="section01" id="membership">
         <div className="colorPattern patternTop"></div>
         <div className="banner01 banner "></div>
         <h1>Membership</h1>
@@ -108,7 +108,7 @@ const IndexPage = ({ data }) => (
           </form>
         </div>
       </section>
-      <section className="section02">
+      <section className="section02" id="events">
         <div className="colorPattern patternTop"></div>
         <div className="banner02 banner"></div>
         <h1>Upcoming Events</h1>
@@ -132,7 +132,7 @@ const IndexPage = ({ data }) => (
           <li>December TBD</li>
         </ul>
       </section>
-      <section className="section03">
+      <section className="section03" id="opportunity">
         <div className="colorPattern patternTop"></div>
         <div className="banner03 banner"></div>
         <h1>The Current Opportunity</h1>
@@ -186,7 +186,7 @@ const IndexPage = ({ data }) => (
           </dd>
         </dl>
       </section>
-      <section className="section04">
+      <section className="section04" id="keymessage">
         <div className="colorPattern patternTop"></div>
         <div className="banner04 banner"></div>
         <h1>Key Messages</h1>
@@ -227,7 +227,7 @@ const IndexPage = ({ data }) => (
           </li>
         </ol>
       </section>
-      <section className="section05">
+      <section className="section05" id="qa">
         <div className="colorPattern patternTop"></div>
         <div className="banner05 banner"></div>
         <h1>Q&amp;A</h1>

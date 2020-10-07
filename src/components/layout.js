@@ -6,14 +6,16 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import Navbar from "./Navbar"
 
-import "./layout.scss"
+import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div>
+      <Navbar />
+
+      <div className="mainDiv">
         <main>{children}</main>
         <footer>
           ©{new Date().getFullYear()} <a href="/">aurora-aquatics.ca</a>

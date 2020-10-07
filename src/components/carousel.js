@@ -28,7 +28,7 @@ var settings = {
 const MyCarousel = () => {
   return (
     <Slider {...settings}>
-      <div>
+      <div id="top">
         <div className="slides slide01">
           <img className="bg01" src={image01} alt="image 01" />
           <div className="colorPattern"></div>
