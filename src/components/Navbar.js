@@ -1,6 +1,8 @@
 import React from "react"
 import Styled from "styled-components"
 
+import icon from "../images/logo-icon-white.svg"
+
 const StyledNavbar = Styled.nav`
 .navList{
   position:fixed;
@@ -52,12 +54,15 @@ a{
     top:0;
     z-index:100;
     text-align:center;
-    padding:20px;
+    padding:5px;
     border-radius: 10px 0 10px 10px;
     box-shadow: -2px 2px 3px #444;
   }
   li{
     margin-bottom:.5em;
+  }
+  .icon{
+    width:50px;
   }
 
 }
@@ -74,7 +79,8 @@ const Navbar = () => {
         onClick={clickHandler}
         onKeyDown={clickHandler}
       >
-        &#x02133;
+        {/* &#x02133; */}
+        <img src={icon} alt="navbar icon for mobile" className="icon" />
       </div>
       <ul className="navList" id="navList">
         <li id="nav">
