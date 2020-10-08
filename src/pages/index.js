@@ -114,7 +114,7 @@ const IndexPage = ({ data }) => (
         <div className="colorPattern patternTop"></div>
         <div className="banner02 banner"></div>
         <h1>Upcoming Events</h1>
-        <p>Monthly Zoom Media Aurora Swimming for Everyone web conference</p>
+        <p>Monthly virtual conference</p>
         <ul>
           <li>
             <strong>Late August</strong> - Online Aquatic Survey by the Town of
