@@ -87,7 +87,7 @@ const Navbar = () => {
           <a href="/#top">Home</a>{" "}
         </li>
         <li>
-          <a href="#membership">Membership</a>{" "}
+          <a href="#ourTeam">Our Team</a>{" "}
         </li>
         <li>
           <a href="#events">Events</a>{" "}

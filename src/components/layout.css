@@ -117,6 +117,7 @@ footer a {
 .formSection div {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 0.5em;
 }
 .formSection label {
   font-weight: bold;

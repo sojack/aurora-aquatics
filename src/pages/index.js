@@ -7,6 +7,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Carousel from "../components/carousel"
 import SEO from "../components/seo"
+import TeamSection from "../components/OurTeam"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -37,10 +38,11 @@ const IndexPage = ({ data }) => (
         </ul>
       </section>
 
-      <section className="section01" id="membership">
+      <section className="section01" id="ourTeam">
         <div className="colorPattern patternTop"></div>
         <div className="banner01 banner "></div>
-        <h1>Membership</h1>
+        <h1>Our Team</h1>
+        <TeamSection />
         <p>
           Membership is open to anyone who wants to support the expansion of
           aquatic programming in the town of Aurora. Important, group and
@@ -463,6 +465,9 @@ const IndexPage = ({ data }) => (
           </li>
           <li>
             <a href="/supportLetter-mavericks.pdf">Mavericks Water Polo</a>
+          </li>
+          <li>
+            <a href="/supportLetter-vaughan.pdf">Vaughan Aquatic Club</a>
           </li>
         </ul>
       </section>
