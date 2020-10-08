@@ -16,7 +16,7 @@ import Option04 from "../images/option-04.png"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Swimming for Everyone" />
     <Carousel />
     <main>
       <section>
