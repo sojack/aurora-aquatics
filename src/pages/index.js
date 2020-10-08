@@ -9,6 +9,11 @@ import Carousel from "../components/carousel"
 import SEO from "../components/seo"
 import TeamSection from "../components/OurTeam"
 
+import Option01 from "../images/option-01.png"
+import Option02 from "../images/option-02.png"
+import Option03 from "../images/option-03.png"
+import Option04 from "../images/option-04.png"
+
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
@@ -146,6 +151,14 @@ const IndexPage = ({ data }) => (
         <h1>The Current Opportunity</h1>
         <h2>A word about the ISG Feasibility Study</h2>
         <p>
+          <em>
+            <a href="/AuroraAquaticReportPresentation.pdf">
+              Feasibility Study Presentation
+            </a>{" "}
+            as prepared by Stu Isaac President ISG Consulting
+          </em>
+        </p>
+        <p>
           ISG was hired to review and analyze the current aquatic programming
           and opportunities in the Town of Aurora and to make recommendations on
           long term expansion of facilities and programs based on needs and
@@ -160,14 +173,24 @@ const IndexPage = ({ data }) => (
           <dd>
             The town could elect to do nothing which would not meet the needs of
             the current population of 62,000 never mind the projected population
-            of 70,000 by 2031.{" "}
+            of 70,000 by 2031.
           </dd>
+          <figure>
+            <img className="optionImages" src={Option01} alt="" />
+            <figcaption>Current SARC Layout</figcaption>
+          </figure>
+
           <dt>Twin SARC (56% threshold recovery)</dt>
           <dd>
             This includes building a second 10 lane 25 metre pool which would
             allow the current tank to be reengineered into a warm water tank for
             aqua fitness, learn to swim, special needs and adaptive P.E.
           </dd>
+          <figure>
+            <img className="optionImages" src={Option02} alt="" />
+            <figcaption>25m x 25m Pool Expansion</figcaption>
+          </figure>
+
           <dt>Sport Training (63% threshold recovery)</dt>
           <dd>
             This option includes building next to the SARC tank a 10 lane 50
@@ -179,6 +202,11 @@ const IndexPage = ({ data }) => (
             allow the current SARC tank to be reengineered into a warm water
             tank for aquafitness, learn to swim, special needs and adaptive P.E.
           </dd>
+          <figure>
+            <img className="optionImages" src={Option03} alt="" />
+            <figcaption>50m Training Pool Expansion</figcaption>
+          </figure>
+
           <dt>Event Facility (63% threshold recovery)</dt>
           <dd>
             This option includes a 10 lane 50 metre pool with seating up to 900
@@ -190,8 +218,12 @@ const IndexPage = ({ data }) => (
             national events for swimming, water polo, artistic swimming and
             sport lifesaving. The advantage of this plan would be that it would
             allow the current SARC tank to be reengineered into a warm water
-            tank for aquafitness, learn to swim, special needs and adaptive P.E.{" "}
+            tank for aquafitness, learn to swim, special needs and adaptive P.E.
           </dd>
+          <figure>
+            <img className="optionImages" src={Option04} alt="" />
+            <figcaption>50m Event Pool Expansion</figcaption>
+          </figure>
         </dl>
       </section>
       <section className="section04" id="keymessage">

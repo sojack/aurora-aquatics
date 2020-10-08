@@ -284,7 +284,10 @@ ol li {
 .active {
   background-color: red;
 }
-
+.optionImages {
+  margin-top: 1em;
+  width: 100%;
+}
 @media (max-width: 600px) {
   .slide01 .slide01Logo {
     position: fixed;
