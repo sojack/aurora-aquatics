@@ -116,20 +116,26 @@ const IndexPage = ({ data }) => (
         <h1>Upcoming Events</h1>
         <p>Monthly Zoom Media Aurora Swimming for Everyone web conference</p>
         <ul>
-          <li>Late August - Online Aquatic Survey by the Town of Aurora</li>
           <li>
-            September - Setting the vision, mission and guiding principles
-          </li>
-          <li>October - Preparing to give the town Aquatics Aurora inputs</li>
-          <li>
-            November - Ensuring we have all the letters of support necessary and
-            a strategy to engage decision makers
+            <strong>Late August</strong> - Online Aquatic Survey by the Town of
+            Aurora
           </li>
           <li>
-            Note: the next town staff presentation to the town Council is
-            tentatively scheduled for the first week of November-this would be
-            an informational presentation leading up to a future decision making
-            council meeting.
+            <strong>September</strong> - Setting the vision, mission and guiding
+            principles
+          </li>
+          <li>
+            <strong>October</strong> - Preparing to give the town Aquatics
+            Aurora inputs
+          </li>
+          <li>
+            <strong>November</strong> - Ensuring we have all the letters of
+            support necessary and a strategy to engage decision makers
+            <br />
+            <strong>Note:</strong> the next town staff presentation to the town
+            Council is tentatively scheduled for the first week of November-this
+            would be an informational presentation leading up to a future
+            decision making council meeting.
           </li>
           <li>December TBD</li>
         </ul>
