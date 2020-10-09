@@ -122,8 +122,7 @@ const IndexPage = ({ data }) => (
             will get in touch with you.
           </p>
           <form
-            id="membershipform"
-            name="membership"
+            name="JoinUs"
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
@@ -147,13 +146,15 @@ const IndexPage = ({ data }) => (
               <label htmlFor="email">email: </label>
               <input type="email" name="email" id="email" required />
             </div>
-            {/* <label htmlFor="message" className="textarealabel">
-              Comments/Questions/Suggestions:
+            <label htmlFor="message" className="textarealabel">
+              Comments:
               <textarea name="message" rows="5"></textarea>
-            </label> */}
+            </label>
 
             <div>
-              <input type="submit" value="Send" className="submit" />
+              <button type="submit" className="submit">
+                Submit
+              </button>
             </div>
           </form>
         </div>
