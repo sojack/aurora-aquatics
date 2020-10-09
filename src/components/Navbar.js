@@ -78,6 +78,8 @@ const Navbar = () => {
         className="navButton"
         onClick={clickHandler}
         onKeyDown={clickHandler}
+        role="button"
+        tabIndex={0}
       >
         {/* &#x02133; */}
         <img src={icon} alt="navbar icon for mobile" className="icon" />

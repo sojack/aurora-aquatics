@@ -8,11 +8,8 @@
 import React from "react"
 import Slider from "react-slick"
 import image01 from "../images/photos/pool-main.jpg"
-import image02 from "../images/photos/stock-photo-big-modern-swimming-pool-28504144.jpg"
-import image03 from "../images/photos/stock-photo-lanes-of-a-competition-swimming-pool-197410067.jpg"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import logo from "../images/logo-auroraAquatics.svg"
 import logoalt from "../images/logo-auroraAquatics-alt-shad.svg"
 
 var settings = {
@@ -30,7 +27,7 @@ const MyCarousel = () => {
     <Slider {...settings}>
       <div id="top">
         <div className="slides slide01">
-          <img className="bg01" src={image01} alt="image 01" />
+          <img className="bg01" src={image01} alt="background 01" />
           <div className="colorPattern"></div>
           <h1>
             SWIMMING

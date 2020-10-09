@@ -119,6 +119,7 @@ const IndexPage = ({ data }) => (
             will get in touch with you.
           </p>
           <form
+            id="membershipform"
             name="membership"
             method="post"
             data-netlify="true"
@@ -141,8 +142,14 @@ const IndexPage = ({ data }) => (
               <label htmlFor="email">email: </label>
               <input type="email" name="email" id="email" required />
             </div>
+            <textarea
+              name="comment"
+              form="membershipform"
+              value="Comments/Questions/Suggestions:"
+            />
+
             <div>
-              <input type="submit" value="Join us!" className="submit" />
+              <input type="submit" value="Send" className="submit" />
             </div>
           </form>
         </div>
