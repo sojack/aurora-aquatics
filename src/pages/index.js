@@ -144,10 +144,10 @@ const IndexPage = ({ data }) => (
               <label htmlFor="email">email: </label>
               <input type="email" name="email" id="email" required />
             </div>
-            <label htmlFor="message" className="textarealabel">
+            {/* <label htmlFor="message" className="textarealabel">
               Comments/Questions/Suggestions:
               <textarea name="message" rows="5"></textarea>
-            </label>
+            </label> */}
 
             <div>
               <input type="submit" value="Send" className="submit" />
