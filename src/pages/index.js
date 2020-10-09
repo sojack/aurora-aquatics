@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => (
           <li>Supports healthy, active lifestyles within the community.</li>
           <li>
             Is a destination for community recreation as well as, regional,
-            provincial and national aquatic training and competitions;
+            provincial and national aquatic training and competitions.
           </li>
           <li>
             Is an economic generator for the Town of Aurora through the ability
@@ -48,6 +48,37 @@ const IndexPage = ({ data }) => (
         <div className="banner01 banner "></div>
         <h1>Our Team</h1>
         <TeamSection />
+        <h2>Support Letters</h2>
+        <ul>
+          <li>
+            <a href="/supportLetter-SwimCanada.pdf">Swim Canada</a>
+          </li>
+          <li>
+            <a href="/supportLetter-SwimOntario.pdf">Swim Ontario</a>
+          </li>
+          <li>
+            <a href="/supportLetter-artisticSwimmingCanada.pdf">
+              Canada Artistic Swimming
+            </a>
+          </li>
+          <li>
+            <a href="/supportLetter-artisticswimming.pdf">
+              Ontario Artistic Swimming
+            </a>
+          </li>
+          <li>
+            <a href="/supportLetter-waterpolocanada.pdf">Water Polo Canada</a>
+          </li>
+          <li>
+            <a href="/supportLetter-onwaterpolo.pdf">Ontario Water Polo</a>
+          </li>
+          <li>
+            <a href="/supportLetter-mavericks.pdf">Mavericks Water Polo</a>
+          </li>
+          <li>
+            <a href="/supportLetter-vaughan.pdf">Vaughan Aquatic Club</a>
+          </li>
+        </ul>
         <p>
           Membership is open to anyone who wants to support the expansion of
           aquatic programming in the town of Aurora. Important, group and
@@ -81,6 +112,7 @@ const IndexPage = ({ data }) => (
             and cross training
           </li>
         </ul>
+
         <div className="formSection">
           <p>
             Those interested in joining us please fill the form below and we
@@ -119,7 +151,7 @@ const IndexPage = ({ data }) => (
         <div className="colorPattern patternTop"></div>
         <div className="banner02 banner"></div>
         <h1>Upcoming Events</h1>
-        <p>Monthly virtual conference</p>
+        <p>Monthly virtual conferences</p>
         <ul>
           <li>
             <strong>Late August</strong> - Online Aquatic Survey by the Town of
@@ -142,7 +174,9 @@ const IndexPage = ({ data }) => (
             would be an informational presentation leading up to a future
             decision making council meeting.
           </li>
-          <li>December TBD</li>
+          <li>
+            <strong>December:</strong> TBD
+          </li>
         </ul>
       </section>
       <section className="section03" id="opportunity">
@@ -476,38 +510,6 @@ const IndexPage = ({ data }) => (
             in the community to town staff and town councillors.
           </dd>
         </dl>
-      </section>
-      <section className="section06" id="support">
-        <div className="colorPattern patternTop"></div>
-        <div className="banner01 banner "></div>
-        <h1>Support Letters</h1>
-        <ul>
-          <li>
-            <a href="/supportLetter-SwimCanada.pdf">Swim Canada</a>
-          </li>
-          <li>
-            <a href="/supportLetter-SwimOntario.pdf">Swim Ontario</a>
-          </li>
-          <li>
-            <a href="/supportLetter-artisticSwimmingCanada.pdf">
-              Canada Artistic Swimming
-            </a>
-          </li>
-          <li>
-            <a href="/supportLetter-artisticswimming.pdf">
-              Ontario Artistic Swimming
-            </a>
-          </li>
-          <li>
-            <a href="/supportLetter-waterpolocanada.pdf">Water Polo Canada</a>
-          </li>
-          <li>
-            <a href="/supportLetter-mavericks.pdf">Mavericks Water Polo</a>
-          </li>
-          <li>
-            <a href="/supportLetter-vaughan.pdf">Vaughan Aquatic Club</a>
-          </li>
-        </ul>
       </section>
     </main>
   </Layout>

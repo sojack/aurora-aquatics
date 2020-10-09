@@ -10,6 +10,7 @@ import DS from "../images/logos/logo-ds.png"
 import WP from "../images/logos/logo-wp.png"
 import MWP from "../images/logos/logo-mwp.png"
 import VAC from "../images/logos/logo-vac.png"
+import OWP from "../images/logos/logo-owp.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -45,7 +46,7 @@ const OurTeam = () => {
         <figcaption>Swim Ontario</figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={CAS} alt="Swim Ontario" />
+        <img className="teamLogo" src={CAS} alt="Canada Artistic Swimming" />
         <figcaption>
           Canada Artistic
           <br />
@@ -53,7 +54,7 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={OAS} alt="Swim Ontario" />
+        <img className="teamLogo" src={OAS} alt="Ontario Artistic Swimming" />
         <figcaption>
           Ontario Artistic
           <br />
@@ -61,7 +62,7 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={MD} alt="Swim Ontario" />
+        <img className="teamLogo" src={MD} alt="Aurora Master Ducks" />
         <figcaption>
           Aurora
           <br />
@@ -69,11 +70,11 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={DS} alt="Swim Ontario" />
+        <img className="teamLogo" src={DS} alt="Ducks Swimming" />
         <figcaption>Ducks Swimming</figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={WP} alt="Swim Ontario" />
+        <img className="teamLogo" src={WP} alt="Water Polo Canada" />
         <figcaption>
           Water Polo
           <br />
@@ -81,7 +82,7 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={MWP} alt="Swim Ontario" />
+        <img className="teamLogo" src={MWP} alt="Mavericks Water Polo" />
         <figcaption>
           Mavericks
           <br />
@@ -89,11 +90,19 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={VAC} alt="Swim Ontario" />
+        <img className="teamLogo" src={VAC} alt="Vaugh Aquatic Club" />
         <figcaption>
           Vaughan
           <br />
           Aquatic Club
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={OWP} alt="Ontario Water Polo Ontario" />
+        <figcaption>
+          Ontario
+          <br />
+          Water Polo
         </figcaption>
       </figure>
     </TeamStyled>

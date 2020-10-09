@@ -101,9 +101,6 @@ const Navbar = () => {
         <li>
           <a href="#qa">Q&amp;A</a>{" "}
         </li>
-        <li>
-          <a href="#support">Support Letters</a>{" "}
-        </li>
       </ul>
     </StyledNavbar>
   )
