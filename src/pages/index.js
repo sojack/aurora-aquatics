@@ -145,7 +145,7 @@ const IndexPage = ({ data }) => (
               <input type="email" name="email" id="email" required />
             </div>
             <label htmlFor="message" className="textarealabel">
-              Comments/Questions/Suggestions:
+              Message:
               <textarea name="message" rows="5"></textarea>
             </label>
 
