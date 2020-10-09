@@ -124,7 +124,8 @@ footer a {
   text-align: right;
   margin-right: 1em;
 }
-textarea {
+textarea,
+.textarealabel {
   width: 100%;
 }
 .submit {
