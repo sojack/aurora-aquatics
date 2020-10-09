@@ -125,7 +125,7 @@ const IndexPage = ({ data }) => (
             data-netlify="true"
             netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="membership" value="Contact Form" />
+            <input type="hidden" name="form-name" value="membership" />
             <div>
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name" required />
