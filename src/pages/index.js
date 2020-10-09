@@ -145,7 +145,7 @@ const IndexPage = ({ data }) => (
             <textarea
               name="comment"
               form="membershipform"
-              value="Comments/Questions/Suggestions:"
+              placeholder="Comments/Questions/Suggestions:"
             />
 
             <div>
