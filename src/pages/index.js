@@ -125,6 +125,7 @@ const IndexPage = ({ data }) => (
             data-netlify="true"
             netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="membership" />
             <div>
               <label htmlFor="name">Name: </label>
@@ -145,7 +146,8 @@ const IndexPage = ({ data }) => (
             </div>
             <textarea
               name="comment"
-              form="membershipform"
+              id="messageid"
+              rows="5"
               placeholder="Comments/Questions/Suggestions:"
             />
 
