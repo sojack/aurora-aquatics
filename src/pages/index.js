@@ -196,14 +196,19 @@ const IndexPage = ({ data }) => (
         <div className="banner03 banner"></div>
         <h1>The Current Opportunity</h1>
         <h2>A word about the ISG Feasibility Study</h2>
-        <p>
-          <em>
-            <a href="/AuroraAquaticReportPresentation.pdf">
-              Feasibility Study Presentation
-            </a>{" "}
-            as prepared by Stu Isaac President ISG Consulting
-          </em>
-        </p>
+        <ul>
+          <li>
+            <a href="https://engageaurora.ca/afs">Aquatics Feasibility Study</a>
+          </li>
+          <li>
+            <em>
+              <a href="/AuroraAquaticReportPresentation.pdf">
+                Feasibility Study Presentation
+              </a>{" "}
+              as prepared by Stu Isaac President ISG Consulting
+            </em>
+          </li>
+        </ul>
         <p>
           ISG was hired to review and analyze the current aquatic programming
           and opportunities in the Town of Aurora and to make recommendations on
