@@ -223,7 +223,10 @@ const IndexPage = ({ data }) => (
           </li>
           <li>
             <em>
-              <a href="/AuroraAquaticReportPresentation.pdf">
+              <a
+                href="https://designcloud.ca/public_files/AuroraAquaticReportPresentation.pdf"
+                target="_new"
+              >
                 Feasibility Study Presentation
               </a>{" "}
               as prepared by Stu Isaac President ISG Consulting
