@@ -149,6 +149,10 @@ textarea {
   font-weight: bold;
   font-size: 1em;
 }
+.facebookAd {
+  width: 100%;
+  margin-top: 1em;
+}
 .banner {
   width: 100vw;
   position: relative;

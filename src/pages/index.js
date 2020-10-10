@@ -13,6 +13,7 @@ import Option01 from "../images/option-01.png"
 import Option02 from "../images/option-02.png"
 import Option03 from "../images/option-03.png"
 import Option04 from "../images/option-04.png"
+import FacebookAd from "../images/facebookAd.jpg"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -115,11 +116,31 @@ const IndexPage = ({ data }) => (
             and cross training
           </li>
         </ul>
+        <h2>Join Us</h2>
+        <p>
+          Join us in support for the development of a premiere accessible
+          aquatic facility which will benefit the recreational, competitive, and
+          community users in Aurora and York Region.
+        </p>
+        <p>
+          Support us by joining our{" "}
+          <a href="https://www.facebook.com/groups/auroraaquatics/">
+            Facebook group.
+          </a>
+          <a href="https://www.facebook.com/groups/auroraaquatics/">
+            <img
+              src={FacebookAd}
+              alt="social media likes and loves"
+              title="Join our Facebook group"
+              className="facebookAd"
+            />
+          </a>
+        </p>
 
         <div className="formSection">
           <p>
-            Those interested in joining us please fill the form below and we
-            will get in touch with you.
+            Have a question, comment, or suggestion? <br />
+            We want to hear from you:
           </p>
           <form
             name="JoinUs"
