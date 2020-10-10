@@ -113,6 +113,7 @@ footer a {
 .formSection p,
 .formSectiondiv {
   margin: 0 0 0.5em;
+  color: var(--purple);
 }
 .formSection div {
   display: grid;
@@ -128,10 +129,25 @@ textarea,
 .textarealabel {
   width: 100%;
 }
+label {
+  color: var(--purple);
+}
+input,
+textarea {
+  border: 1px solid var(--purple);
+}
 .submit {
   grid-column: 1/3;
   width: 100%;
   margin: 0.5em 0 0;
+  padding: 0.5em;
+  background-color: var(--purple);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
 }
 .banner {
   width: 100vw;
