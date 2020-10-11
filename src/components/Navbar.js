@@ -1,6 +1,6 @@
 import React from "react"
 import Styled from "styled-components"
-
+import { Link } from "gatsby"
 import icon from "../images/logo-icon-white.svg"
 
 const StyledNavbar = Styled.nav`
@@ -73,35 +73,34 @@ const clickHandler = () => {
 
 const Navbar = () => {
   return (
-    <StyledNavbar>
-      <div
-        className="navButton"
-        onClick={clickHandler}
-        onKeyDown={clickHandler}
-        role="button"
-        tabIndex={0}
-      >
+    <StyledNavbar
+      onClick={clickHandler}
+      onKeyDown={clickHandler}
+      role="button"
+      tabIndex={0}
+    >
+      <div className="navButton">
         {/* &#x02133; */}
         <img src={icon} alt="navbar icon for mobile" className="icon" />
       </div>
       <ul className="navList" id="navList">
         <li id="nav">
-          <a href="/#top">Home</a>{" "}
+          <Link to="#top">Home</Link>{" "}
         </li>
         <li>
-          <a href="#ourTeam">Our Team</a>{" "}
+          <Link to="#ourTeam">Our Team</Link>{" "}
         </li>
         <li>
-          <a href="#events">Events</a>{" "}
+          <Link to="#events">Events</Link>{" "}
         </li>
         <li>
-          <a href="#opportunity">Opportunities</a>{" "}
+          <Link to="#opportunity">Opportunities</Link>{" "}
         </li>
         <li>
-          <a href="#keymessage">Key Messages</a>{" "}
+          <Link to="#keymessage">Key Messages</Link>{" "}
         </li>
         <li>
-          <a href="#qa">Q&amp;A</a>{" "}
+          <Link to="#qa">Q&amp;A</Link>{" "}
         </li>
       </ul>
     </StyledNavbar>
