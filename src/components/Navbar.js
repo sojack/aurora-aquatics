@@ -9,13 +9,13 @@ const StyledNavbar = Styled.nav`
   left:0;
   top:0;
   width:100%;
-  padding:.5em;
+  padding:1em;
   margin:0;
   display:flex;
   flex-direction: row;
   list-style:none;
   justify-content:space-around;
-  background-color:rgba(255,255,255,.8);
+  background-color:rgba(255,255,255,.9);
   z-index:5;
 }
 ul li::before{
@@ -37,13 +37,16 @@ a{
 
 @media (max-width: 600px) {
   .navList{
-    display:none;
+    display:flex;
+    flex-direction:column;
     flex-wrap:wrap;
     justify-content:center;
+    top:-100%;
+    transition: all 0.4s ease-in;
+
   }
   .navListActive{
-    display:block;
-    position: fixed;
+top:0;
   }
   .navButton{
     display:block;
@@ -59,7 +62,7 @@ a{
     box-shadow: -2px 2px 3px #444;
   }
   li{
-    margin-bottom:.5em;
+    margin-bottom:1em;
   }
   .icon{
     width:50px;
