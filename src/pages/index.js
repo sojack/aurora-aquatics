@@ -82,6 +82,9 @@ const IndexPage = ({ data }) => (
           <li>
             <a href="/supportLetter-ducks.pdf">Ducks Swimming</a>
           </li>
+          <li>
+            <a href="/supportLetter-specialDucks.pdf">Aurora Special Ducks</a>
+          </li>
         </ul>
         <p>
           Membership is open to anyone who wants to support the expansion of
