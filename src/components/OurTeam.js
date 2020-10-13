@@ -11,6 +11,7 @@ import WP from "../images/logos/logo-wp.png"
 import MWP from "../images/logos/logo-mwp.png"
 import VAC from "../images/logos/logo-vac.png"
 import OWP from "../images/logos/logo-owp.png"
+import ASD from "../images/logos/logo-asd.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -103,6 +104,14 @@ const OurTeam = () => {
           Ontario
           <br />
           Water Polo
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={ASD} alt="Aurora Special Ducks" />
+        <figcaption>
+          Aurora
+          <br />
+          Special Ducks
         </figcaption>
       </figure>
     </TeamStyled>
