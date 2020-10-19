@@ -91,7 +91,7 @@ const Navbar = () => {
           <Link to="#top">Home</Link>{" "}
         </li>
         <li>
-          <Link to="#ourTeam">Our Team</Link>{" "}
+          <Link to="#ourTeam" replace>Our Team</Link>{" "}
         </li>
         <li>
           <Link to="#events">Events</Link>{" "}
