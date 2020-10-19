@@ -261,7 +261,7 @@ const IndexPage = ({ data }) => (
             <figcaption>Current SARC Layout</figcaption>
           </figure>
 
-          <dt>Twin SARC (56% threshold recovery)</dt>
+          <dt>Twin SARC (56% cost recovery)</dt>
           <dd>
             This includes building a second 10 lane 25 metre pool which would
             allow the current tank to be reengineered into a warm water tank for
@@ -272,7 +272,7 @@ const IndexPage = ({ data }) => (
             <figcaption>25m x 25m Pool Expansion</figcaption>
           </figure>
 
-          <dt>Sport Training (63% threshold recovery)</dt>
+          <dt>Sport Training (63% cost recovery)</dt>
           <dd>
             This option includes building next to the SARC tank a 10 lane 50
             metre training tank with a split bulkhead and 2 headwalls. Usage
@@ -288,7 +288,7 @@ const IndexPage = ({ data }) => (
             <figcaption>50m Training Pool Expansion</figcaption>
           </figure>
 
-          <dt>Event Facility (63% threshold recovery)</dt>
+          <dt>Event Facility (63% cost recovery)</dt>
           <dd>
             This option includes a 10 lane 50 metre pool with seating up to 900
             spectators and 600 competitors in two seating areas. The expanded
