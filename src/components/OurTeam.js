@@ -12,6 +12,7 @@ import MWP from "../images/logos/logo-mwp.png"
 import VAC from "../images/logos/logo-vac.png"
 import OWP from "../images/logos/logo-owp.png"
 import ASD from "../images/logos/logo-asd.png"
+import STN from "../images/logos/logo-sting.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -112,6 +113,14 @@ const OurTeam = () => {
           Aurora
           <br />
           Special Ducks
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={STN} alt="Newmarket Stingrays" />
+        <figcaption>
+          Newmarket
+          <br />
+          Stingrays
         </figcaption>
       </figure>
     </TeamStyled>
