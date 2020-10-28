@@ -186,42 +186,11 @@ const IndexPage = ({ data }) => (
           </form>
         </div>
       </section>
-      <section className="section02" id="events">
-        <div className="colorPattern patternTop"></div>
-        <div className="banner02 banner"></div>
-        <h1>Upcoming Events</h1>
-        <p>Monthly virtual conferences</p>
-        <ul>
-          <li>
-            <strong>Late August</strong> - Online Aquatic Survey by the Town of
-            Aurora
-          </li>
-          <li>
-            <strong>September</strong> - Setting the vision, mission and guiding
-            principles
-          </li>
-          <li>
-            <strong>October</strong> - Preparing to give the town Aquatics
-            Aurora inputs
-          </li>
-          <li>
-            <strong>November</strong> - Ensuring we have all the letters of
-            support necessary and a strategy to engage decision makers
-            <br />
-            <strong>Note:</strong> the next town staff presentation to the town
-            Council is tentatively scheduled for the first week of November-this
-            would be an informational presentation leading up to a future
-            decision making council meeting.
-          </li>
-          <li>
-            <strong>December:</strong> TBD
-          </li>
-        </ul>
-      </section>
-      <section className="section03" id="opportunity">
+
+      <section className="section03" id="options">
         <div className="colorPattern patternTop"></div>
         <div className="banner03 banner"></div>
-        <h1>The Current Opportunity</h1>
+        <h1>Our Options</h1>
         <h2>A word about the ISG Feasibility Study</h2>
         <ul>
           <li>
@@ -307,6 +276,40 @@ const IndexPage = ({ data }) => (
           </figure>
         </dl>
       </section>
+
+      <section className="section02" id="events">
+        <div className="colorPattern patternTop"></div>
+        <div className="banner02 banner"></div>
+        <h1>Upcoming Events</h1>
+        <p>Monthly virtual conferences</p>
+        <ul>
+          <li>
+            <strong>Late August</strong> - Online Aquatic Survey by the Town of
+            Aurora
+          </li>
+          <li>
+            <strong>September</strong> - Setting the vision, mission and guiding
+            principles
+          </li>
+          <li>
+            <strong>October</strong> - Preparing to give the town Aquatics
+            Aurora inputs
+          </li>
+          <li>
+            <strong>November</strong> - Ensuring we have all the letters of
+            support necessary and a strategy to engage decision makers
+            <br />
+            <strong>Note:</strong> the next town staff presentation to the town
+            Council is tentatively scheduled for the first week of November-this
+            would be an informational presentation leading up to a future
+            decision making council meeting.
+          </li>
+          <li>
+            <strong>December:</strong> TBD
+          </li>
+        </ul>
+      </section>
+
       <section className="section04" id="keymessage">
         <div className="colorPattern patternTop"></div>
         <div className="banner04 banner"></div>

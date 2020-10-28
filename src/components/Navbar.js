@@ -94,10 +94,10 @@ const Navbar = () => {
           <Link to="#ourTeam" replace>Our Team</Link>{" "}
         </li>
         <li>
-          <Link to="#events">Events</Link>{" "}
+          <Link to="#options">Our Options</Link>{" "}
         </li>
         <li>
-          <Link to="#opportunity">Opportunities</Link>{" "}
+          <Link to="#events">Events</Link>{" "}
         </li>
         <li>
           <Link to="#keymessage">Key Messages</Link>{" "}
