@@ -13,6 +13,7 @@ import VAC from "../images/logos/logo-vac.png"
 import OWP from "../images/logos/logo-owp.png"
 import ASD from "../images/logos/logo-asd.png"
 import STN from "../images/logos/logo-sting.png"
+import NN from "../images/logos/logo-nn.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -28,7 +29,8 @@ const TeamStyled = Styled.div`
 		text-align:center;
 		font-size:.8em;
 		line-height:1.2em;
-		color:gray;
+    color:gray;
+    margin-top:10px;
 	}
 	figure img{
 		margin:auto;
@@ -121,6 +123,14 @@ const OurTeam = () => {
           Newmarket
           <br />
           Stingrays
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={NN} alt="NeighbourhoodNetwork" />
+        <figcaption>
+          Neighbourhood
+          <br />
+          Network
         </figcaption>
       </figure>
     </TeamStyled>
