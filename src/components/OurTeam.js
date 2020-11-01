@@ -14,6 +14,7 @@ import OWP from "../images/logos/logo-owp.png"
 import ASD from "../images/logos/logo-asd.png"
 import STN from "../images/logos/logo-sting.png"
 import NN from "../images/logos/logo-nn.png"
+import SS from "../images/logos/logo-ss.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -131,6 +132,14 @@ const OurTeam = () => {
           Neighbourhood
           <br />
           Network
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={SS} alt="Whitchurch Stouffville Swim Club" />
+        <figcaption>
+        Whitchurch Stouffville 
+          <br />
+          Swim Club
         </figcaption>
       </figure>
     </TeamStyled>

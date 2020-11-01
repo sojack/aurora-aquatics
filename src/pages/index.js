@@ -91,6 +91,9 @@ const IndexPage = ({ data }) => (
           <li>
             <a href="/supportLetter-Stingrays.pdf">Newmarket Stingrays</a>
           </li>
+          <li>
+            <a href="/supportLetter-Stouffville.pdf">Whitchurch Stouffville Swim Club</a>
+          </li>
         </ul>
         <p>
           Membership is open to anyone who wants to support the expansion of
