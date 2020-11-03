@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import Carousel from "../components/carousel"
 import SEO from "../components/seo"
 import TeamSection from "../components/OurTeam"
+import Ticker from "../components/Ticker"
 
 import Option01 from "../images/option-01.png"
 import Option02 from "../images/option-02.png"
@@ -195,6 +196,7 @@ const IndexPage = ({ data }) => (
             </div>
           </form>
         </div>
+        <Ticker />
       </section>
 
       <section className="section03" id="options">
