@@ -126,6 +126,12 @@ footer a {
   text-align: right;
   margin-right: 1em;
 }
+.formnote {
+  grid-column: 1/3;
+}
+label.alignLeft {
+  text-align: left;
+}
 textarea,
 .textarealabel {
   width: 100%;

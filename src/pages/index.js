@@ -105,7 +105,7 @@ const IndexPage = ({ data }) => (
           <li>Aquafit Swimmers</li>
           <li>Special Needs Program Providers and Participants</li>
           <li>Adaptive P.E. Providers and Participants</li>
-          <li>Physiotherapy/Rehabilitation Providers & Patrons</li>
+          <li>Physiotherapy/Rehabilitation Providers &amp; Patrons</li>
           <li>Swim Clubs</li>
           <li>Water Polo Clubs</li>
           <li>Artistic Swimming Clubs</li>
@@ -183,7 +183,11 @@ const IndexPage = ({ data }) => (
               Comments:
               <textarea name="message" rows="5"></textarea>
             </label>
-
+            <div>
+              <label for="public" className="alignLeft" >Make my comment public:</label>
+              <input type="checkbox" name="public" />
+              <p className="formnote"><i>No contact info will be made public. Comments are reviewed before being posted. If you want to make your comment public but annonymous please indicate in the comment.</i></p>
+            </div>
             <div>
               <button type="submit" className="submit">
                 Submit
