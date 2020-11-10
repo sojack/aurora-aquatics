@@ -140,6 +140,7 @@ label {
   color: var(--purple);
 }
 input,
+[type="checkbox"],
 textarea {
   border: 1px solid var(--purple);
 }

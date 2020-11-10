@@ -95,6 +95,9 @@ const IndexPage = ({ data }) => (
           <li>
             <a href="/supportLetter-Stouffville.pdf">Whitchurch Stouffville Swim Club</a>
           </li>
+          <li>
+            <a href="/supportLetter-lifesaving.pdf">Lifesaving Society</a>
+          </li>
         </ul>
         <p>
           Membership is open to anyone who wants to support the expansion of

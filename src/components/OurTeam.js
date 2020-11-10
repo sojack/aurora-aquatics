@@ -15,6 +15,7 @@ import ASD from "../images/logos/logo-asd.png"
 import STN from "../images/logos/logo-sting.png"
 import NN from "../images/logos/logo-nn.png"
 import SS from "../images/logos/logo-ss.png"
+import LS from "../images/logos/logo-ls.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -140,6 +141,14 @@ const OurTeam = () => {
         Whitchurch Stouffville 
           <br />
           Swim Club
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={LS} alt="LifeSaving Society" />
+        <figcaption>
+        Life Saving
+          <br />
+          Society
         </figcaption>
       </figure>
     </TeamStyled>
