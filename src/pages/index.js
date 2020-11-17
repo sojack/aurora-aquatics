@@ -98,6 +98,12 @@ const IndexPage = ({ data }) => (
           <li>
             <a href="/supportLetter-lifesaving.pdf">Lifesaving Society</a>
           </li>
+          <li>
+            <a href="/supportLetter-YRAA.pdf">York Region Athletic Association</a>
+          </li>
+          <li>
+            <a href="/supportLetter-HON.pdf">Honsberger Physio</a>
+          </li>
         </ul>
         <p>
           Membership is open to anyone who wants to support the expansion of

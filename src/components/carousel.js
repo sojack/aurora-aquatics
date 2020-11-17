@@ -8,6 +8,8 @@
 import React from "react"
 import Slider from "react-slick"
 import image01 from "../images/photos/pool-main.jpg"
+import image02 from "../images/photos/pool-02.jpg"
+import image03 from "../images/photos/pool-03.jpg"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import logoalt from "../images/logo-auroraAquatics-alt-shad.svg"
@@ -37,7 +39,7 @@ const MyCarousel = () => {
           <img src={logoalt} alt="logo" className="slide01Logo" />
         </div>
       </div>
-      {/* <div>
+      <div>
         <div className="slides slide02">
           <img src={image02} alt="image 01" />
           <div>
@@ -55,7 +57,7 @@ const MyCarousel = () => {
         <div className="slides slide03">
           <img src={image03} alt="image 01" />
         </div>
-      </div> */}
+      </div>
     </Slider>
   )
 }

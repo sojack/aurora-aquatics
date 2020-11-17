@@ -16,6 +16,8 @@ import STN from "../images/logos/logo-sting.png"
 import NN from "../images/logos/logo-nn.png"
 import SS from "../images/logos/logo-ss.png"
 import LS from "../images/logos/logo-ls.png"
+import HO from "../images/logos/logo-hon.png"
+import YR from "../images/logos/logo-yra.png"
 
 const TeamStyled = Styled.div`
 	color:purple;
@@ -149,6 +151,18 @@ const OurTeam = () => {
         Life Saving
           <br />
           Society
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={YR} alt="York Region Athletic Association" />
+        <figcaption>
+        York Region<br />Athletic Association
+        </figcaption>
+      </figure>
+      <figure>
+        <img className="teamLogo" src={HO} alt="Honsberger Physio" />
+        <figcaption>
+        Honsberger Physio
         </figcaption>
       </figure>
     </TeamStyled>
