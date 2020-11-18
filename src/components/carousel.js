@@ -39,7 +39,7 @@ const MyCarousel = () => {
           <img src={logoalt} alt="logo" className="slide01Logo" />
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="slides slide02">
           <img src={image02} alt="image 01" />
           <div>
@@ -57,7 +57,7 @@ const MyCarousel = () => {
         <div className="slides slide03">
           <img src={image03} alt="image 01" />
         </div>
-      </div>
+      </div> */}
     </Slider>
   )
 }
