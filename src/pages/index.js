@@ -15,6 +15,7 @@ import Option02 from "../images/option-02.png"
 import Option03 from "../images/option-03.png"
 import Option04 from "../images/option-04.png"
 import FacebookAd from "../images/facebookAd.jpg"
+import PublicComments from "../components/PublicComments"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -205,7 +206,8 @@ const IndexPage = ({ data }) => (
             </div>
           </form>
         </div>
-        <Ticker />
+        {/* <Ticker /> */}
+        <PublicComments />
       </section>
 
       <section className="section03" id="options">
