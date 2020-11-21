@@ -8,7 +8,6 @@ import Layout from "../components/layout"
 import Carousel from "../components/carousel"
 import SEO from "../components/seo"
 import TeamSection from "../components/OurTeam"
-import Ticker from "../components/Ticker"
 
 import Option01 from "../images/option-01.png"
 import Option02 from "../images/option-02.png"
@@ -195,7 +194,7 @@ const IndexPage = ({ data }) => (
               <textarea name="message" rows="5"></textarea>
             </label>
             <div>
-              <label for="public" className="alignLeft" >Make my comment public:</label>
+              <label htmlFor="public" className="alignLeft" >Make my comment public:</label>
               <input type="checkbox" name="public" />
               <p className="formnote"><i>No contact info will be made public. Comments are reviewed before being posted. If you want to make your comment public but annonymous please indicate in the comment.</i></p>
             </div>
@@ -206,7 +205,6 @@ const IndexPage = ({ data }) => (
             </div>
           </form>
         </div>
-        {/* <Ticker /> */}
         <PublicComments />
       </section>
 
