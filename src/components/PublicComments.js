@@ -16,9 +16,18 @@ var settings = {
 
 const Comment = styled.div`
 margin-top:3em;
+.container{
+
+}
+.cardWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .card{
 	padding:1em 2em;
 	position:relative;
+	max-width:600px;
 }
 .comment{
 	font-style:italic;
@@ -29,12 +38,12 @@ margin-top:3em;
 
 }
 .comment:before{
-		content:"\u201C";
-		font-size:3em;
-		position:absolute;
-		color:var(--red);
-		top:15px;
-		left:5px;
+	content:"\u201C";
+	font-size:3em;
+	position:absolute;
+	color:var(--red);
+	top:15px;
+	left:5px;
 	
 }
 .name{
@@ -50,16 +59,25 @@ const PublicComments = () => {
   return (
 	  <Comment>
 		<Slider {...settings} >
-			<div className='card'>
-				<div className="comment">This would be a great boon to the local economy, when we have big meets in 50 metre pools swimmers and their entire families come from all over the province. Many require hotel rooms and tend to dine out for all meals, this helps local economy and businesses in the area</div>
-				<div className="name">Stephanie L.</div>
-				<div className="organization">Newmarket Stingrays</div>
+			<div className="container">
+				<div className="cardWrap">
+					<div className='card'>
+						<div className="comment">This would be a great boon to the local economy, when we have big meets in 50 metre pools swimmers and their entire families come from all over the province. Many require hotel rooms and tend to dine out for all meals, this helps local economy and businesses in the area</div>
+						<div className="name">Stephanie L.</div>
+						<div className="organization">Newmarket Stingrays</div>
+					</div>
+				</div>
 			</div>
-			<div className='card'>
-				<div className="comment">Aurora is ideally positioned to capitalize on York Region underserved sports scene.</div>
-				<div className="name">Jack S.</div>
-				<div className="organization">Aurora Master Ducks</div>
+			<div className="container">
+				<div className="cardWrap">
+					<div className='card'>
+						<div className="comment">Aurora is ideally positioned to capitalize on York Region underserved sports scene.</div>
+						<div className="name">Jack S.</div>
+						<div className="organization">Aurora Master Ducks</div>
+					</div>
+				</div>
 			</div>
+
 
 
 		</Slider>
