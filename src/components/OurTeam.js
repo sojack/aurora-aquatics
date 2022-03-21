@@ -46,15 +46,23 @@ const OurTeam = () => {
   return (
     <TeamStyled>
       <figure>
-        <img className="teamLogo" src={SC} alt="Swim Canada" />
+        <a href="https://www.swimming.ca/">
+          <img className="teamLogo" src={SC} alt="Swim Canada" />
+        </a>
         <figcaption>Swim Canada</figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={SO} alt="Swim Canada" />
+        <a href="https://www.swimontario.com/">
+          <img className="teamLogo" src={SO} alt="Swim Canada" />
+        </a>
+
         <figcaption>Swim Ontario</figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={CAS} alt="Canada Artistic Swimming" />
+        <a href="https://artisticswimming.ca/">
+          <img className="teamLogo" src={CAS} alt="Canada Artistic Swimming" />
+        </a>
+
         <figcaption>
           Canada Artistic
           <br />
@@ -62,7 +70,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={OAS} alt="Ontario Artistic Swimming" />
+        <a href="https://ontarioartisticswimming.ca/">
+          <img className="teamLogo" src={OAS} alt="Ontario Artistic Swimming" />
+        </a>
+
         <figcaption>
           Ontario Artistic
           <br />
@@ -70,7 +81,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={MD} alt="Aurora Master Ducks" />
+        <a href="https://masterducks.ca/">
+          <img className="teamLogo" src={MD} alt="Aurora Master Ducks" />
+        </a>
+
         <figcaption>
           Aurora
           <br />
@@ -78,11 +92,17 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={DS} alt="Ducks Swimming" />
+        <a href="https://www.ducksswimming.ca/">
+          <img className="teamLogo" src={DS} alt="Ducks Swimming" />
+        </a>
+
         <figcaption>Ducks Swimming</figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={WP} alt="Water Polo Canada" />
+        <a href="https://www.waterpolo.ca/">
+          <img className="teamLogo" src={WP} alt="Water Polo Canada" />
+        </a>
+
         <figcaption>
           Water Polo
           <br />
@@ -90,7 +110,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={MWP} alt="Mavericks Water Polo" />
+        <a href="https://www.maverickswaterpolo.ca/">
+          <img className="teamLogo" src={MWP} alt="Mavericks Water Polo" />
+        </a>
+
         <figcaption>
           Mavericks
           <br />
@@ -98,7 +121,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={VAC} alt="Vaugh Aquatic Club" />
+        <a href="http://www.vaughanaquaticclub.com/">
+          <img className="teamLogo" src={VAC} alt="Vaugh Aquatic Club" />
+        </a>
+
         <figcaption>
           Vaughan
           <br />
@@ -106,7 +132,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={OWP} alt="Ontario Water Polo Ontario" />
+        <a href="https://www.ontariowaterpolo.ca/">
+          <img className="teamLogo" src={OWP} alt="Ontario Water Polo Ontario" />
+        </a>
+
         <figcaption>
           Ontario
           <br />
@@ -114,7 +143,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={ASD} alt="Aurora Special Ducks" />
+        <a href="http://aurora.specialolympicsontario.ca/sports-programs/swimming">
+          <img className="teamLogo" src={ASD} alt="Aurora Special Ducks" />
+        </a>
+
         <figcaption>
           Aurora
           <br />
@@ -122,7 +154,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={STN} alt="Newmarket Stingrays" />
+        <a href="https://www.teamunify.com/team/cannssc/page/home">
+          <img className="teamLogo" src={STN} alt="Newmarket Stingrays" />
+        </a>
+
         <figcaption>
           Newmarket
           <br />
@@ -130,7 +165,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={NN} alt="NeighbourhoodNetwork" />
+        <a href="https://neighbourhoodnetwork.org/">
+          <img className="teamLogo" src={NN} alt="NeighbourhoodNetwork" />
+        </a>
+
         <figcaption>
           Neighbourhood
           <br />
@@ -138,7 +176,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={SS} alt="Whitchurch Stouffville Swim Club" />
+        <a href="https://stouffvilleswimclub.com/">
+          <img className="teamLogo" src={SS} alt="Whitchurch Stouffville Swim Club" />
+        </a>
+
         <figcaption>
         Whitchurch Stouffville 
           <br />
@@ -146,7 +187,10 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={LS} alt="LifeSaving Society" />
+        <a href="https://www.lifesavingsociety.com/">
+          <img className="teamLogo" src={LS} alt="LifeSaving Society" />
+        </a>
+
         <figcaption>
         Life Saving
           <br />
@@ -154,13 +198,19 @@ const OurTeam = () => {
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={YR} alt="York Region Athletic Association" />
+        <a href="http://www.yraa.com/src/">
+          <img className="teamLogo" src={YR} alt="York Region Athletic Association" />
+        </a>
+
         <figcaption>
         York Region<br />Athletic Association
         </figcaption>
       </figure>
       <figure>
-        <img className="teamLogo" src={HO} alt="Honsberger Physio" />
+        <a href="https://www.honsbergerphysio.com/">
+          <img className="teamLogo" src={HO} alt="Honsberger Physio" />
+        </a>
+
         <figcaption>
         Honsberger Physio
         </figcaption>
